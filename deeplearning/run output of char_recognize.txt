@@ -1,0 +1,26 @@
+run output of char_recognize.py
+
+
+PS D:\dev\py\deeplearning> & C:/Users/dryon/AppData/Local/Programs/Python/Python310/python.exe d:/dev/py/deeplearning/char_recognize.py
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 [==============================] - 2s 0us/step
+2023-11-12 18:18:15.864425: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/5
+   1/1875 [..............................] - ETA: 14:26 - loss: 2.3480 - accuracy: 0.0000e+0   8/1875 [..............................] - ETA: 14s - loss: 2.1743 - accuracy: 0.2930     
+1875/1875 [==============================] - 14s 7ms/step - loss: 0.2253 - accuracy: 0.9366 
+- val_loss: 0.0974 - val_accuracy: 0.9722
+Epoch 2/5
+1875/1875 [==============================] - 14s 7ms/step - loss: 0.0825 - accuracy: 0.9762 
+- val_loss: 0.0659 - val_accuracy: 0.9799
+Epoch 3/5
+1875/1875 [==============================] - 14s 7ms/step - loss: 0.0611 - accuracy: 0.9819 
+- val_loss: 0.0582 - val_accuracy: 0.9807
+Epoch 4/5
+1875/1875 [==============================] - 14s 7ms/step - loss: 0.0498 - accuracy: 0.9850 
+- val_loss: 0.0531 - val_accuracy: 0.9831
+Epoch 5/5
+1875/1875 [==============================] - 14s 7ms/step - loss: 0.0422 - accuracy: 0.9872 
+- val_loss: 0.0516 - val_accuracy: 0.9838
+313/313 [==============================] - 1s 3ms/step - loss: 0.0516 - accuracy: 0.9838    
+Test accuracy: 0.9837999939918518
