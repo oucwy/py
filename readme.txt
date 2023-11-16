@@ -3,7 +3,8 @@
 c盘用户.ssh目录下config内容如下。
 host只写github，不用写用户名，连接到哪个github用户，由源码.git中config的url指定。私钥文件存储在同目录下。公钥中的文本全拷贝后粘贴在github的新建ssh中。
 # git@github.com:oucwy/py.git
-Host github
+# Host github
+Host github_oucwy
   User git
   HostName github.com
   PreferredAuthentications publickey
