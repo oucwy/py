@@ -14,7 +14,7 @@ Host github_oucwy
 可通过url = git@github.com:oucwy/py.git来区分连接到github哪个用户。
 [remote "origin"]
 	# url = git@github.com:oucwy/py.git
-	url = git@github_oucwy:oucwy/py.git
+	url = git@1:oucwy/py.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
 	remote = origin
