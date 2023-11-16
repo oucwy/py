@@ -13,7 +13,8 @@ Host github_oucwy
 开发目录.git下的config:
 可通过url = git@github.com:oucwy/py.git来区分连接到github哪个用户。
 [remote "origin"]
-	url = git@github.com:oucwy/py.git
+	# url = git@github.com:oucwy/py.git
+	url = git@github_oucwy:oucwy/py.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
 	remote = origin
