@@ -1,0 +1,16 @@
+2024-02-06 08:57:59.191 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:57:59.328 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:57:59.377 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:57:59.516 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:57:59.726 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:57:59.762 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:57:59.811 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:57:59.972 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:58:00.181 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:58:00.374 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:58:00.593 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:58:00.662 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:58:00.703 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:58:00.738 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:58:00.829 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2024-02-06 08:58:01.242 wxauto.py[48] SplitMessage -> 2024-02-06 09:11:39.034 wxauto.py[210] SendMsg -> 2024-02-06 09:13:24.729 wxauto.py[210] SendMsg -> 2024-02-10 17:11:24.555 wxauto.py[210] SendMsg -> 2024-02-10 17:25:31.855 wxauto.py[210] SendMsg -> 2024-02-10 17:28:45.164 wxauto.py[210] SendMsg -> 2024-02-10 17:29:41.269 wxauto.py[210] SendMsg -> 2024-02-10 17:53:22.559 wxauto.py[173] Search -> 

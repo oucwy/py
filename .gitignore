@@ -1,1 +1,4 @@
 mnist.npz
+build
+dist
+.vscode
