@@ -1,62 +1,24 @@
 
-# Path: client.py
-# 写一个客户端，请求服务器，获取新闻列表
-
+# 
+# 客户端测试，请求获取新闻列表
+# author: markwy
+# date: 2024.4.30
+#
 import requests
-
-url = 'http://127.0.0.1:5000/news'
-res = requests.get(url)
-print(res.json())
-
-# Path: news.json
-# 写一个json文件，存储新闻数据
-[
-    {
-        "title": "新闻标题1",
-        "content": "新闻内容1"
-    },
-    {
-        "title": "新闻标题2",
-        "content": "新闻内容2"
-    }
-]
-
-# Path: insert.py
-# 写一个脚本，读取news.json文件，插入mongodb数据库
-from pymongo import MongoClient
 import json
 
-client = MongoClient('localhost', 27017)
-db = client['news']
-collection = db['news']
+url = 'http://markwy.com:5000/getnews'
 
-with open('news.json', 'r') as f:
-    news = json.load(f)
-    collection.insert_many(news)
+res = requests.get(url)
+# print(res.json())
+# json结果放入一个列表中
+news_list = res.json()
+# 打印新闻列表
+for news in news_list:
+    print(news['date'])
+    print(news['content'])
+    print('---')
 
-# Path: query.py
-# 写一个脚本，查询mongodb数据库中的新闻
-from pymongo import MongoClient
-
-client = MongoClient('localhost', 27017)
-db = client['news']
-collection = db['news']
-
-news = collection.find()
-for n in news:
-    print(n)
-
-# Path: requirements.txt
-# 写一个requirements.txt文件，列出所有依赖的包
-flask
-pymongo
-requests
-
-# Path: Dockerfile
-# 写一个Dockerfile文件，构建docker镜像
-FROM python:3.6
-COPY . /app
-WORKDIR /app
-RUN pip install -r requirements.txt
-CMD ["python", "srv.py"]
-
+# 保存到json文件
+with open('c:/dev/py/flask/news.json', 'w') as f:
+    json.dump(news_list, f)
