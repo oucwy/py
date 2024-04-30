@@ -13,7 +13,7 @@ from pymongo import MongoClient
 app = Flask(__name__)
 # 连接mongodb数据库，在markwy.com上，实际使用时，需要修改用户名和密码
 client = MongoClient(
-    "mongodb://markwy:Free_7890@markwy.com:27017"
+    "mongodb://m****y:F***_7***@m****y.com:27017"
 )
 
 # set database name:　myblog
